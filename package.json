@@ -1,5 +1,5 @@
 {
-  "name": "templation",
+  "name": "@hellsan631/templation",
   "description": "Nodemailer wrapper for easily sending HTML templated emails",
   "version": "0.1.0",
   "main": "src/templation.js",
@@ -30,5 +30,10 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/hellsan631/templation#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
