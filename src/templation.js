@@ -33,13 +33,18 @@ Templation.prototype.send = function send(data, callback){
   var attachments = this._getAttachments(html);
 
   var emailData = {
-    to: data.to.name + " <" + data.to.email + ">",
     from: data.from || this.options.from,
     subject: data.subject,
     html: html,
     generateTextFromHTML: this.options.generateTextFromHTML,
     attachments: attachments
   };
+
+  if(data.to.email)
+    emailData.to = data.to.name + " <" + data.to.email + ">";
+  else 
+    emailData.to = data.to;
+
 
   var transportOptions = data.transportOptions || this.options.transportOptions;
 
