@@ -1,7 +1,7 @@
 {
   "name": "@hellsan631/templation",
   "description": "Nodemailer wrapper for easily sending HTML templated emails",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "src/templation.js",
   "dependencies": {
     "lodash": "^3.10.0",
