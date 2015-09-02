@@ -1,7 +1,6 @@
 # nodemailer-templation
 _A Nodemailer wrapper for easily sending HTML templated emails._
 
-
 I've always had problems trying to send emails via multiple HTML templates. There really wasn't anything that solved
 all of my needs in a way that was easy and made sense to me. I found a code snippit some where for node 0.8x,
 that didn't work, so I adapted it into this package.
