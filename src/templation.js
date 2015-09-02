@@ -40,11 +40,10 @@ Templation.prototype.send = function send(data, callback){
     attachments: attachments
   };
 
-  if(data.to.email)
+  if(typeof data.to === "object")
     emailData.to = data.to.name + " <" + data.to.email + ">";
-  else 
+  else
     emailData.to = data.to;
-
 
   var transportOptions = data.transportOptions || this.options.transportOptions;
 

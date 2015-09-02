@@ -1,7 +1,7 @@
 {
-  "name": "@hellsan631/templation",
+  "name": "nodemailer-templation",
   "description": "Nodemailer wrapper for easily sending HTML templated emails",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "src/templation.js",
   "dependencies": {
     "lodash": "^3.10.0",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hellsan631/templation.git"
+    "url": "git://github.com/hellsan631/nodemailer-templation.git"
   },
   "keywords": [
     "e-mail",
@@ -21,17 +21,18 @@
     "ses",
     "smtp",
     "html",
-    "template"
+    "template",
+    "nodemailer"
   ],
   "author": "Mathew Kleppin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hellsan631/templation/issues"
+    "url": "https://github.com/hellsan631/nodemailer-templation/issues"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-  "homepage": "https://github.com/hellsan631/templation#readme",
+  "homepage": "https://github.com/hellsan631/nodemailer-templation#readme",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
